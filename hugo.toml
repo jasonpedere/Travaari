@@ -11,7 +11,7 @@ copyright = "Copyright © 2025, Travaari; all rights reserved."
   header_subtitle = "Exploring the world, one story at a time."
   # To add a background image, place it in "static/images/"
   # and uncomment the line below:
-  # header_image = "https://ibb.co/0yw3V4N3"
+  # header_image = "https://i.ibb.co/N24znDhz/pexels-fmaderebner-238622-1.jpg"
 
   # --- Sidebar Widget ---
   # To use, add a picture named "profile.png" to your "static/images/" folder
