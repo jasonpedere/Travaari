@@ -1,8 +1,11 @@
+# --- Basic Site Settings ---
 baseURL = "https://jasonpedere.github.io/Travaari/"
 languageCode = "en-us"
 title = "Travaari"
 theme = "hugo-theme-cleanwhite"
+copyright = "Copyright © 2025, Jason Pedere; all rights reserved."
 
+# --- Theme Parameters ---
 [params]
   header_title = "Travaari"
   header_subtitle = "Exploring the world, one story at a time."
@@ -10,17 +13,53 @@ theme = "hugo-theme-cleanwhite"
   # and uncomment the line below:
   # header_image = "images/your-background.jpg"
 
-# Main Navigation Menu
+  # --- Sidebar Widget ---
+  # To use, add a picture named "profile.png" to your "static/images/" folder
+  short_intro = true
+
+  # --- SEO and Metadata ---
+  description = "Travaari is a travel blog dedicated to exploring the Philippines and beyond, with guides on food, adventure, and budget travel."
+  keywords = "travel, philippines, travel blog, central luzon, nueva ecija, food, adventure, budget travel"
+
+  # --- Features ---
+  show_reading_time = true
+
+  # --- Social Sharing ---
+  # Enable social sharing buttons on posts
+  share = true
+
+  # --- Social Network Services ---
+  [params.sns]
+    facebook = "https://facebook.com/your-username"
+    instagram = "https://instagram.com/your-username"
+    pinterest = "https://pinterest.com/your-username"
+    youtube = "https://youtube.com/your-channel"
+
+# --- Main Navigation Menu ---
 [menu]
   [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Travel Guides"
+    url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "Archives"
-    url = "/posts/"
+    name = "Destinations"
+    url = "/destinations/"
     weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+# --- Future-Proofing (Leave these blank for now) ---
+# Google Analytics ID
+googleAnalytics = "" 
+# Disqus shortname for comments
+disqusShortname = ""
