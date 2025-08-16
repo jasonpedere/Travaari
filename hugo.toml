@@ -1,0 +1,26 @@
+baseURL = "https://jasonpedere.github.io/Travaari/"
+languageCode = "en-us"
+title = "Travaari"
+theme = "hugo-theme-cleanwhite"
+
+[params]
+  header_title = "Travaari"
+  header_subtitle = "Exploring the world, one story at a time."
+  # To add a background image, place it in "static/images/"
+  # and uncomment the line below:
+  # header_image = "images/your-background.jpg"
+
+# Main Navigation Menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Archives"
+    url = "/posts/"
+    weight = 3
