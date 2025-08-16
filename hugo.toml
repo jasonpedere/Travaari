@@ -3,7 +3,7 @@ baseURL = "https://jasonpedere.github.io/Travaari/"
 languageCode = "en-us"
 title = "Travaari"
 theme = "hugo-theme-cleanwhite"
-copyright = "Copyright © 2025, Jason Pedere; all rights reserved."
+copyright = "Copyright © 2025, Travaari; all rights reserved."
 
 # --- Theme Parameters ---
 [params]
@@ -11,7 +11,7 @@ copyright = "Copyright © 2025, Jason Pedere; all rights reserved."
   header_subtitle = "Exploring the world, one story at a time."
   # To add a background image, place it in "static/images/"
   # and uncomment the line below:
-  # header_image = "images/your-background.jpg"
+  # header_image = "https://ibb.co/0yw3V4N3"
 
   # --- Sidebar Widget ---
   # To use, add a picture named "profile.png" to your "static/images/" folder
@@ -62,4 +62,4 @@ copyright = "Copyright © 2025, Jason Pedere; all rights reserved."
 # Google Analytics ID
 googleAnalytics = "" 
 # Disqus shortname for comments
-disqusShortname = ""
+disqusShortname = "travaari-blog"
